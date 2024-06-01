@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Form Container Styles */
+.login-container,
+.signup-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 70px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5); /* Increased box-shadow */
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    color: #333; /* Darkened heading color */
+    margin-bottom: 20px; /* Added margin */
+    font-size: 24px; /* Increased font size */
+}
+
+/* Input Styles */
+.input-group {
+    margin-bottom: 20px; /* Increased margin */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Adjusted margin */
+    color: #555; /* Slightly darker label color */
+    font-weight: bold; /* Added font weight */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease; /* Smooth border transition */
+    color: #333; /* Darkened text color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4caf50; /* Highlight border color on focus */
+}
+
+/* Button Styles */
+button {
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    font-weight: bold; /* Added font weight */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    color: #777; /* Adjusted paragraph color */
+    line-height: 1.5; /* Improved readability */
+}
+
+/* Anchor Styles */
+a {
+    color: #4caf50;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+    font-weight: bold; /* Added font weight */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #45a049; /* Changed color on hover */
+}
